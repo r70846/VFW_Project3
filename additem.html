@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--   Russell Gaspard     		   -->
-<!--   VFW 1304, Project 2 	       -->
+<!--   VFW 1304, Project 3 	       -->
 <!--   Musician List, Add Musician -->
 
 <html>
@@ -19,26 +19,28 @@
 	</head>
 	<body>
 		<header>
-			<a href="#" id="clearDataLink" >Clear Stored Data</a>
-			<a href="#" id="displayDataLink" >Display Stored Data</a>
+			<a href="#" id="clearDataLink" >Clear All</a>
+			<a href="#" id="displayDataLink" >Display All</a>
 			<a href="javascript: window.location.reload();" id="addAnother" style="display:none;">Add Another</a>
 
 		</header>
 		<form action="#" method="post" id="theForm">
 			<fieldset>
 				<legend>Add Musician</legend>
-				<ul>
-					<li><label for="fname">First Name:</label><input type="text" id="fname" /></li>
-					<li><label for="lname">Last Name:</label><input type="text" id="lname" /></li>	
-					<li><label for="phone">Phone:</label><input type="text" id="phone" /></li>
-					<li><label for="email">Email:</label><input type="email" id="email" /></li>
+				<span id="required">( * required fields )</span>
+				<ul id="errors"></ul>
+				<ul id="fields">
+					<li><label for="fname">* First Name:</label><input type="text" id="fname" /></li>
+					<li><label for="lname">* Last Name:</label><input type="text" id="lname" /></li>	
+					<li><label for="phone">* Phone:</label><input type="text" id="phone" placeholder="XXX-XXX-XXXX"/></li>
+					<li><label for="email">* Email:</label><input type="email" id="email" /></li>
 					
 					<li id="pSelect">
-						<label for="primary">Primary Instrument:</label>
+						<label for="primary">* Primary Instrument:</label>
 					</li>
 					
 					
-					<li>All Instruments:
+					<li>Additional Instruments:
 						<ul>
 							<li><input type="checkbox" value="Guitar" id="guitar" name="all"/><label for="guitar">Guitar</label></li>
 							<li><input type="checkbox" value="Bass" id="bass" name="all"/><label for="bass">Bass</label></li>
