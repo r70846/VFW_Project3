@@ -9,39 +9,39 @@
 
 body{
 	font-family:Arial;
-    background:#E8E8E8;
+	background:#E8E8E8;
 }
 
 header{
-   padding: 10px;
+	padding: 10px;
 }
 
 h1 {
-   font-variant:small-caps;
+	font-variant:small-caps;
 }
 
 a {
-   text-decoration:none;
-   color: black;
-   border: 1px solid black;
-   padding: 5px;
-   margin-right:5px;
-   background:#C0C0C0;
+	text-decoration:none;
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	margin-right:5px;
+	background:#C0C0C0;
 }
 
 #buttons{
-   margin-top:10px;
-   margin-bottom:20px;
+	margin-top:10px;
+	margin-bottom:20px;
 }
 
 form {
-   margin-top: 15px;
-   padding:10px;
-   background: #f8f8f8;
+	margin-top: 15px;
+	padding:10px;
+	background: #f8f8f8;
 }
 
 fieldset {
-    border: 0;
+	border: 0;
 }
 
 legend{
@@ -50,30 +50,27 @@ legend{
 	font-size:24px;
 }
 
-label{
-
-}
 
 button {
-   background:#C0C0C0;
-   font-size:16px;
-   margin-left:80px;
+	background:#C0C0C0;
+	font-size:16px;
+	margin-left:80px;
 }
 
 input{
-   background: #ffffcc;
+	background: #ffffcc;
 }
 
 textarea{
-   background: #ffffcc;
+	background: #ffffcc;
 	display:block;
 }
 
 div{
-   border: 1px solid #C0C0C0;
-   background: #f8f8f8;
-   overflow:scroll;
-   }
+	border: 1px solid #C0C0C0;
+	background: #f8f8f8;
+	overflow:scroll;
+}
    
 select{
 	display:block;
@@ -91,5 +88,4 @@ ul#errors{
 
 span#required{
 	font-size:13px;
-
 }

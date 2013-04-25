@@ -89,6 +89,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		alert("Musician Data Saved");	
 	};
 	
+	//Display Data
 	function displayData(){
 		if(localStorage.length === 0){
 			alert("No musician data has been saved.");
@@ -106,7 +107,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		for(i=0, j=localStorage.length; i<j; i++){
 			var newItem = document.createElement("li");
 			var newLinksItem = document.createElement("li");
-				newLinksItem.setAttribute("id", "buttons");
+			newLinksItem.setAttribute("id", "buttons");
 			newList.appendChild(newItem);
 			var key = localStorage.key(i);
 			var value = localStorage.getItem(key);
@@ -133,7 +134,6 @@ window.addEventListener("DOMContentLoaded", function(){
 		var linkEdit = document.createElement("a");
 		linkEdit.href = "#";	
 		linkEdit.key = k;
-		linkEdit.id = "edit";
 		linkEdit.addEventListener("click", editMusician);
 		linkEdit.innerHTML = "Edit";
 		li.appendChild(linkEdit);
@@ -142,7 +142,6 @@ window.addEventListener("DOMContentLoaded", function(){
 		var linkDelete = document.createElement("a");
 		linkDelete.href = "#";	
 		linkDelete.key = k;
-		linkDelete.id = "delete";
 		linkDelete.addEventListener("click", delMusician);
 		linkDelete.innerHTML = "Delete";
 		li.appendChild(linkDelete);
