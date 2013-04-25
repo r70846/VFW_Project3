@@ -1,0 +1,72 @@
+/*
+   Russell Gaspard
+   Project 2
+   Visual Frameworks - VFW 1304
+   Mobile Development
+   Full Sail University
+*/
+
+
+body{
+	font-family:Arial;
+    background:#E8E8E8;
+}
+
+header{
+   padding: 10px;
+}
+
+h1 {
+   font-variant:small-caps;
+}
+
+a {
+   text-decoration:none;
+   color: black;
+   border: 1px solid black;
+   padding: 5px;
+   margin-right:5px;
+   background:#C0C0C0;
+}
+
+
+form {
+   margin-top: 15px;
+   padding:10px;
+   background: #f8f8f8;
+}
+
+fieldset {
+    border: 0;
+}
+
+legend{
+	letter-spacing: .08em;
+	font-weight:bold;
+}
+
+label{
+
+}
+
+button {
+   background:#C0C0C0;
+   font-size:16px;
+}
+
+input{
+   font-variant:small-caps;
+   background: #ffffcc;
+}
+
+textarea{
+   background: #ffffcc;
+	line-height: 3em;
+	display:block;
+}
+
+div{
+   border: 1px solid #C0C0C0;
+   background: #f8f8f8;
+   overflow:scroll;
+   }
